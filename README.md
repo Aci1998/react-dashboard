@@ -1,34 +1,32 @@
-## React Dashboard — "[isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" admin dashboard template
-built with [React](https://facebook.github.io/react/), [Bootstrap](http://getbootstrap.com/), [React Router](https://reacttraining.com/react-router/),
-[Redux](http://redux.js.org/) and [GraphQL](http://graphql.org/) based on
-[Create React App](https://github.com/facebook/create-react-app) and latest industry best practices.
+## React 仪表盘 — "[同构](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" 管理仪表盘模板
+基于 [React](https://facebook.github.io/react/)、[Bootstrap](http://getbootstrap.com/)、[React Router](https://reacttraining.com/react-router/)、
+[Redux](http://redux.js.org/) 和 [GraphQL](http://graphql.org/) 构建，基于
+[Create React App](https://github.com/facebook/create-react-app) 和最新的行业最佳实践。
 
-[View Demo](https://flatlogic.com/admin-dashboards/react-dashboard/demo) | [Download](https://github.com/flatlogic/react-dashboard.git) | [More templates](https://flatlogic.com/templates) | [Support forum](https://flatlogic.com/forum)
+[查看演示](https://flatlogic.com/admin-dashboards/react-dashboard/demo) | [下载](https://github.com/flatlogic/react-dashboard.git) | [更多模板](https://flatlogic.com/templates) | [支持论坛](https://flatlogic.com/forum)
 
 [![react-dashboard](screenshot.png)](https://flatlogic.com/admin-dashboards/react-dashboard/demo)
 
-This seed project is like a free version of a template you can find on [Themeforest](https://themeforest.net/category/site-templates/admin-templates) or [Wrapbootstrap](https://wrapbootstrap.com/themes/admin), with working backend integration, to get you started on your next [business software](https://flatlogic.com/) development.
+这个种子项目类似于在 [Themeforest](https://themeforest.net/category/site-templates/admin-templates) 或 [Wrapbootstrap](https://wrapbootstrap.com/themes/admin) 上可以找到的模板的免费版本，具有工作后的端集成，帮助你开始下一个 [商业软件](https://flatlogic.com/) 开发。
 
-
-## Features
+## 功能
 * React
-* Mobile friendly layout (responsive)
+* 移动友好布局（响应式）
 * React Router
 * Bootstrap3
 * GraphQL
-* Nodejs backend inegration
-* Sass styles
-* Stylish, clean, responsive layout
-* Lots of utility css classes for rapid development (flatlogic css set)
-* Authentication
-* CRUD operations examples
+* Nodejs 后端集成
+* Sass 样式
+* 精美的、干净的、响应式布局
+* 许多实用 CSS 类，用于快速开发（flatlogic CSS 集合）
+* 认证
+* CRUD 操作示例
 
-## Quick Start
+## 快速开始
 
-#### 1. Get the latest version
+#### 1. 获取最新版本
 
-You can start by cloning the latest version of React Dashboard on your
-local machine by running:
+你可以通过运行以下命令在你的本地机器上克隆 React Dashboard 的最新版本：
 
 ```shell
 $ git clone -o react-dashboard -b master --single-branch \
@@ -36,57 +34,54 @@ $ git clone -o react-dashboard -b master --single-branch \
 $ cd MyApp
 ```
 
-#### 2. Run `yarn install`
+#### 2. 运行 `yarn install`
 
-This will install both run-time project dependencies and developer tools listed
-in [package.json](../package.json) file.
+此命令将安装 [package.json](../package.json) 文件中列出的运行时项目依赖项和开发工具。
 
-#### 3. Run `yarn dev`
+#### 3. 运行 `yarn dev`
 
-This command will start the app with simultaneously with express server,
-set up your database, start local server XAMPP, opensever, or other tool
-to start database, connect to it in file 
+此命令将同时启动应用和 express 服务器，设置你的数据库，启动本地服务器 XAMPP、opensever 或其他工具来启动数据库，在文件 
 ```shell
 src > data > sequelize.js.
 ```
-Also go to  
+中连接到它。然后转到  
 ```shell
 src > data > schema.js 
 ```
-and enable mutation. This preparation
-will enable to realize CRUD operations locally
+并启用变更。这种准备工作
+将使你能够在本地实现 CRUD 操作。
 
-### 4. How to create db
+### 4. 如何创建数据库
 
-Create db. For instance name it "sequelize" and add posts table to it,
-your table should have same structure as you can see on the screenshot
+创建数据库。例如，将其命名为 "sequelize" 并向其中添加 posts 表，你的表应具有与屏幕截图上所示相同的结构
 <br>
-![table structure](table.png)
+![表结构](table.png)
 
-> [http://localhost:3000/](http://localhost:3000/) — Node.js server<br>
-> [http://localhost:3000/graphql](http://localhost:3000/graphql) — GraphQL server and IDE<br>
+> [http://localhost:3000/](http://localhost:3000/) — Node.js 服务器<br>
+> [http://localhost:3000/graphql](http://localhost:3000/graphql) — GraphQL 服务器和 IDE<br>
 
-Now you can open your web app in a browser, on mobile devices and start
-hacking. Whenever you modify any of the source files inside the `/src` folder,
-the module bundler ([Webpack](http://webpack.github.io/)) will recompile the
-app on the fly and refresh all the connected browsers.
+现在你可以打开你的网页应用在浏览器、移动设备上，并开始
+ hacking。每当你在 `/src` 文件夹内的任何源文件中进行修改时，
+模块打包器 ([Webpack](http://webpack.github.io/)) 将会实时重新编译应用并刷新所有连接的浏览器。
 
-For more info please refer to [getting started](./docs/getting-started.md) guide to download and run the project (Node.js >= 6.5)
+有关更多信息，请参考 [入门指南](./docs/getting-started.md) 下载并运行项目（Node.js >= 6.5）
 
-## Support
-For any additional information please go to our [**support forum**](https://flatlogic.com/forum) and raise your questions or feedback provide there. We highly appreciate your participation!
+## 支持
+有关任何其他信息，请访问我们的 [**支持论坛**](https://flatlogic.com/forum) 并在那里提出你的问题或反馈。我们非常感谢你的参与！
 
-## How can I support developers?
-- Star our GitHub repo :star:
-- [Tweet about it](https://twitter.com/intent/tweet?text=Amazing%20dashboard%20built%20with%20NodeJS,%20React%20and%20Bootstrap!&url=https://github.com/flatlogic/react-dashboard&via=flatlogic).
-- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
-- Follow [@flatlogic on Twitter](https://twitter.com/flatlogic).
-- Subscribe to Flatlogic newsletter at [flatlogic.com](https://flatlogic.com/)
-- Like our page on [Facebook](https://www.facebook.com/flatlogic/) :thumbsup:
+## 如何支持开发者？
+- 给我们的 GitHub 仓库加星标 :star:
+- [在 Twitter 上分享](https://twitter.com/intent/tweet?text=Amazing%20dashboard%20built%20with%20NodeJS,%20React%20and%20Bootstrap!&url=https://github.com/flatlogic/react-dashboard&via=flatlogic)。
+- 创建拉取请求，提交错误，建议新功能或文档更新 :wrench:
+- 关注 [@flatlogic on Twitter](https://twitter.com/flatlogic)。
+- 订阅 Flatlogic newsletter 在 [flatlogic.com](https://flatlogic.com/)
+- 在 [Facebook](https://www.facebook.com/flatlogic/) 上点赞 :thumbsup:
 
-## Premium themes
-Looking for premium themes and templates? Check out more [admin dashboard templates at flatlogic.com](https://flatlogic.com/admin-dashboards).
+## 预付费主题
+寻找预付费主题和模板？查看更多 [admin 仪表盘模板在 flatlogic.com](https://flatlogic.com/admin-dashboards)。
 
-## License
+## 许可证
 
-[MIT](https://github.com/flatlogic/react-dashboard/blob/master/LICENSE.txt) and another [MIT](https://github.com/flatlogic/react-dashboard/blob/master/LICENSE-react-starter-kit.txt) from RSK.
+[MIT](https://github.com/flatlogic/react-dashboard/blob/master/LICENSE.txt) 和 RSK 的另一个 [MIT](https://github.com/flatlogic/react-dashboard/blob/master/LICENSE-react-starter-kit.txt) 许可证。
+
+```
